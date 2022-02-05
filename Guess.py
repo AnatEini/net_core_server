@@ -5,7 +5,9 @@ print("If your guess is within 10 of my number, I'll tell you you're WARM")
 print("If your guess is farther than your most recent guess, I'll say you're getting COLDER")
 print("If your guess is closer than your most recent guess, I'll say you're getting WARMER")
 print("LET'S PLAY!")
+print("edit file!")
 import random
+
 
 num = random.randint(1,100)
 guesses = [0]
